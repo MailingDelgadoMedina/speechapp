@@ -12,7 +12,7 @@ npm run dev
 yarn dev
 ```
 
-## This app utilize the following dependancies:
+## This app utilize the following dependencies:
 
 - Firebase Authentication with Google [Documentation](https://firebase.google.com/docs/auth/web/google-signin?authuser=6)
 
@@ -24,38 +24,75 @@ npm install firebase
 npm i firebase-tools
 ```
 
+<hr/>
+
 - React Speech kit [Documentation](https://www.npmjs.com/package/react-speech-kit)
 
 ```bash
-npm i react-speech-kit
+npm i react-speech-kit --legacy-peer-deps
 ```
 
-- TailwindCSS[Documentation](https://tailwindcss.com/docs/guides/nextjs)
+<hr/>
+### TailwindCSS [Documentation](https://tailwindcss.com/docs/guides/nextjs)
 
 ```bash
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss postcss autoprefixer --force
 ```
 
 ```bash
 npx tailwindcss init -p
 ```
 
-tailwind.config.js
+#### Add the paths to all of your template files in your tailwind.config.js file.
 
 /\*_ @type {import('tailwindcss').Config} _/
 module.exports = {
 
 content: [
+
 ```bash
 "./pages/**/*.{js,ts,jsx,tsx}",
 "./components/**/*.{js,ts,jsx,tsx}",
 ```
+
 ],
 theme: {
 extend: {},
 },
 plugins: [],
 }
+
+#### Add the paths to all of your template files in your globals.css file. Please clean your file before adding this code.
+
+```bash
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+<hr/>
+
+### TailwindUI [Documentation](https://tailwindui.com/documentation)
+
+```bash
+npm install tailwindcss@latest --force
+```
+
+```bash
+npm i  @tailwindcss/forms --force
+```
+
+```bash
+npm i  @tailwindcss/typography --force
+```
+
+```bash
+npm i  @tailwindcss/aspect-ratio --force
+```
+
+```bash
+npm install @headlessui/react @heroicons/react --force
+```
 
 ## Learn More
 
