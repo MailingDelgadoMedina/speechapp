@@ -94,6 +94,14 @@ npm i  @tailwindcss/aspect-ratio --force
 npm install @headlessui/react @heroicons/react --force
 ```
 
+<hr/>
+
+### Lottie Animation for Web [Documentation](https://www.npmjs.com/package/lottie-web)
+
+```bash
+npm i lottie-web --force
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
