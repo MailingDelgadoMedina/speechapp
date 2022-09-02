@@ -102,6 +102,10 @@ npm install @headlessui/react @heroicons/react --force
 npm i lottie-web --force
 ```
 
+<hr/>
+
+### MerakiUI [Documentation](https://merakiui.com/components)
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
