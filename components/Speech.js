@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useSpeechSynthesis, useSpeechRecognition } from "react-speech-kit";
 
 function Speech() {
   return (
