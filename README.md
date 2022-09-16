@@ -26,6 +26,26 @@ npm i firebase-tools
 
 <hr/>
 
+- React Firebase hooks [Documentation](https://www.npmjs.com/package/react-firebase-hooks)
+
+```bash
+npm i react-firebase-hooks --force
+```
+
+Add the following import in your component:
+
+```bash
+import { useAuthState } from 'react-firebase-hooks/auth';
+```
+
+And don't forget the hook:
+
+```bash
+const [user, loading, error] = useAuthState(auth);
+```
+
+<hr/>
+
 - React Speech kit [Documentation](https://www.npmjs.com/package/react-speech-kit)
 
 ```bash

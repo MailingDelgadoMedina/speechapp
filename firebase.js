@@ -1,15 +1,14 @@
-
 import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    //Add your config keys here
+  //Add your config keys here
   apiKey: "",
   authDomain: "",
   projectId: "",
   storageBucket: "",
   messagingSenderId: "",
-  appId: ""
+  appId: "",
 };
 
 // Initialize Firebase
