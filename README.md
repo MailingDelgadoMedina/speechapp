@@ -53,6 +53,7 @@ npm i react-speech-kit --legacy-peer-deps
 ```
 
 <hr/>
+
 ### TailwindCSS   [Documentation](https://tailwindcss.com/docs/guides/nextjs)
 
 ```bash
