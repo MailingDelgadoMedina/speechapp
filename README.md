@@ -53,7 +53,7 @@ npm i react-speech-kit --legacy-peer-deps
 ```
 
 <hr/>
-### TailwindCSS [Documentation](https://tailwindcss.com/docs/guides/nextjs)
+### TailwindCSS   [Documentation](https://tailwindcss.com/docs/guides/nextjs)
 
 ```bash
 npm install -D tailwindcss postcss autoprefixer --force
